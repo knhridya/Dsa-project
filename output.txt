@@ -1,0 +1,108 @@
+HASH TABLE INSERTION
+
+After inserting 105:
+0 : -1
+1 : -1
+2 : -1
+3 : -1
+4 : -1
+5 : 105
+6 : -1
+7 : -1
+8 : -1
+9 : -1
+
+After inserting 210:
+0 : 210
+1 : -1
+2 : -1
+3 : -1
+4 : -1
+5 : 105
+6 : -1
+7 : -1
+8 : -1
+9 : -1
+
+After inserting 315:
+0 : 210
+1 : -1
+2 : -1
+3 : -1
+4 : -1
+5 : 105
+6 : 315
+7 : -1
+8 : -1
+9 : -1
+
+After inserting 420:
+0 : 210
+1 : 420
+2 : -1
+3 : -1
+4 : -1
+5 : 105
+6 : 315
+7 : -1
+8 : -1
+9 : -1
+
+After inserting 525:
+0 : 210
+1 : 420
+2 : -1
+3 : -1
+4 : -1
+5 : 105
+6 : 315
+7 : 525
+8 : -1
+9 : -1
+
+After inserting 630:
+0 : 210
+1 : 420
+2 : 630
+3 : -1
+4 : -1
+5 : 105
+6 : 315
+7 : 525
+8 : -1
+9 : -1
+
+After inserting 735:
+0 : 210
+1 : 420
+2 : 630
+3 : -1
+4 : -1
+5 : 105
+6 : 315
+7 : 525
+8 : 735
+9 : -1
+
+After inserting 840:
+0 : 210
+1 : 420
+2 : 630
+3 : 840
+4 : -1
+5 : 105
+6 : 315
+7 : 525
+8 : 735
+9 : -1
+
+Total collisions = 12
+
+Enter ID to search: 420
+Hashing: Found at index 1
+Linear Search: Found at position 3
+
+Hashing comparisons = 2
+Linear search comparisons = 4
+
+Load Factor = 0.80
